@@ -1,23 +1,5 @@
 -- loadstring: loadstring(game:HttpGet("https://raw.githubusercontent.com/BakerBo1/Paste/main/Pastebin"))()
 
-game.Players.LocalPlayer.Character.Head.Transparency = 1
-game.Players.LocalPlayer.Character.Head.Transparency = 1
-for i,v in pairs(game.Players.LocalPlayer.Character.Head:GetChildren()) do
-if (v:IsA("Decal")) then
-v.Transparency = 1
-end
-end
----------------HeadLess Above-----------------------------
----------------NON FE -----------------------------
----------------Korblox Below-----------------------------
-local ply = game.Players.LocalPlayer
-local chr = ply.Character
-chr.RightLowerLeg.MeshId = "902942093"
-chr.RightLowerLeg.Transparency = "1"
-chr.RightUpperLeg.MeshId = "http://www.roblox.com/asset/?id=902942096"
-chr.RightUpperLeg.TextureID = "http://roblox.com/asset/?id=902843398"
-chr.RightFoot.MeshId = "902942089"
-chr.RightFoot.Transparency = "1"
 loadstring(game:HttpGet("https://raw.githubusercontent.com/Actyrn/Scripts/main/AzureModded"))()
 --[[ 
     @title
@@ -8369,3 +8351,22 @@ function AnimationPack(Character)
 end
 AnimationPack(game.Players.LocalPlayer.Character)
 game.Players.LocalPlayer.CharacterAdded:Connect(AnimationPack)
+
+game.Players.LocalPlayer.Character.Head.Transparency = 1
+game.Players.LocalPlayer.Character.Head.Transparency = 1
+for i,v in pairs(game.Players.LocalPlayer.Character.Head:GetChildren()) do
+if (v:IsA("Decal")) then
+v.Transparency = 1
+end
+end
+---------------HeadLess Above-----------------------------
+---------------NON FE -----------------------------
+---------------Korblox Below-----------------------------
+local ply = game.Players.LocalPlayer
+local chr = ply.Character
+chr.RightLowerLeg.MeshId = "902942093"
+chr.RightLowerLeg.Transparency = "1"
+chr.RightUpperLeg.MeshId = "http://www.roblox.com/asset/?id=902942096"
+chr.RightUpperLeg.TextureID = "http://roblox.com/asset/?id=902843398"
+chr.RightFoot.MeshId = "902942089"
+chr.RightFoot.Transparency = "1"
